@@ -35,9 +35,9 @@ public class Lab {
     public int whileExample(int end){
         int sum = 0;
         int i = 0;
-
-//        code here
-
+        for( i=0; i<end; i++){
+            sum+=i;
+        }
         return sum;
     }
 }
